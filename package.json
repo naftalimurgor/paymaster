@@ -1,0 +1,31 @@
+{
+  "name": "paymaster-demo",
+  "version": "1.0.0",
+  "description": "Demo Nodejs app for Circle Paymaster for gasless usdc transfers",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naftalimurgor/paymaster.git"
+  },
+  "keywords": [
+    "Circle",
+    "Paymaster",
+    "USDC"
+  ],
+  "author": "naftalimurgor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naftalimurgor/paymaster/issues"
+  },
+  "homepage": "https://github.com/naftalimurgor/paymaster#readme",
+  "type": "commonjs",
+  "dependencies": {
+    "@circle-fin/modular-wallets-core": "^1.0.11",
+    "dotenv": "^17.2.1",
+    "viem": "^2.35.1"
+  }
+}
