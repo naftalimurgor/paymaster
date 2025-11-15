@@ -19,7 +19,6 @@ const main = async () => {
     const client = createPublicClient({chain, transport: http('https://arbitrum-sepolia.infura.io/v3/f1b89cfe5ac54a12bb2e0d0f6367c61b')});
     const owner = privateKeyToAccount(ownerPrivateKey);
 
-    console.log(owner.address == '0x15d325f32F0E8E490F80742E48B6a64Bf3349547')
     let account = await toCircleSmartAccount({client, owner});
     // console.log(account.address == '0x15d325f32F0E8E490F80742E48B6a64Bf3349547')
     const usdc = getContract({client, address: usdcAddress, abi: erc20Abi});
