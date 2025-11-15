@@ -16,7 +16,7 @@ git clone https://github.com/naftalimurgor/paymaster
 npm i
 ```
 
-3. set env secrets in `.env`
+3. set env secrets in `.env`. A sample is provided in `.env.example`
 4. Grab some tesnet USDC here: https://faucet.circle.com/
 5. Run example:
 
